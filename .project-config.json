@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://2S3YoprRSeUmkko.2ab8014d8f21:5pn48HaUo6trD5frG5vx@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/iCqcNynV3VnDVz9hsKqNPi?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/iCqcNynV3VnDVz9hsKqNPi.git",
+    "expiration": "2026-08-10T22:59:40.947Z",
+    "token": "art_v1_9ad8c8b739e51e96dd8f0f27864f9bb35019ab4e?expires=1786402780",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "dashboard-app-published",
+  "path": "/home/ubuntu/dashboard-app-published",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "QPyKLZ6ZwRBzVTzav8hD3g",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "YMoc8fWJF7BNStLv7e22Bb",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "motayam Love",
+    "OWNER_OPEN_ID": "Fau8Wt9DfyWbaWhbpYAVzR",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "02ccd370-a554-4b9e-b3fa-3e655804bbc6",
+    "VITE_APP_ID": "iCqcNynV3VnDVz9hsKqNPi",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Dashboard App Published",
+    "VITE_FRONTEND_FORGE_API_KEY": "fHVwKd8gqRwjKJ2NhfodU7",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
