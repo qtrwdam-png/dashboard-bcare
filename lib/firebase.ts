@@ -5,12 +5,12 @@ import { getDatabase } from "firebase/database";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "AIzaSyB75ueQ7Vzh8IwKKfj6Ei2gVwh8Fk2oPx8",
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "bcare-app---dashboard.firebaseapp.com",
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "bcare-app---dashboard",
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "bcare-app---dashboard.firebasestorage.app",
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "199219468876",
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:199219468876:web:a05009face78c0e34ef2e9"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "AIzaSyDhWCe81ytrcBDycTmCA5ZxgwN7HOPs1tY",
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "bcare-app-new.firebaseapp.com",
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "bcare-app-new",
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "bcare-app-new.firebasestorage.app",
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "771913311104",
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:771913311104:web:d002db5adfd8c961c05765"
 };
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
